@@ -1,0 +1,67 @@
+.app {
+    width: 50%;
+    margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; 
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #4a4a4d;
+  width: 100%;
+}
+tr {
+  overflow-x: scroll;
+}
+th,
+td {
+  padding: 15px 15px;
+}
+thead {
+  font-size: 19px;
+  line-height: 24px;
+  font-family: Lato;
+  border: 1px solid transparent;
+  color: rgb(17, 6, 6);
+  background: rgba(175, 212, 140, 0.9);
+}
+thead tr th {
+  padding: 15px 15px;
+  border: 1px solid transparent;
+  text-align: left;
+}
+tbody {
+  max-width: 100%;
+}
+tbody tr:nth-child(odd) {
+  background: #f0f0f2;
+}
+tbody tr:hover {
+  background: #f0f0f2;
+}
+td {
+  padding: 15px 15px;
+}
+
+.pagination {
+    margin-top: 25px;
+}
+.pagination span {
+  cursor: pointer;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination span.active {
+  background-color: #2388e7b7;
+  color: white;
+  border: 1px solid #dbe5e9;
+}
